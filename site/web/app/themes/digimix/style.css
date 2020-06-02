@@ -1,0 +1,129 @@
+/*
+Theme Name:       Shade Pop
+Theme URI:        http://digimix.us/
+Description:      Child theme for the Roots framework
+Author:           DigiMix
+Author URI:       http://digimix.us/
+Template:         roots-master
+Version:        	1.0.0
+*/
+
+img#wpstats {display: none;}
+
+body {background: #BFD4E7;font-size: 14px;}
+body.home {background: #fff;}
+a, a p {transition:all .2s ease-in;-o-transition:all .2s ease-in;-moz-transition:all .2s ease-in;-webkit-transition:all .2s ease-in;}
+a:hover {text-decoration: none;}
+h1, h2, h3 {font-weight: 200;}
+.main.span8 {margin-top: 50px;}
+img.alignleft {margin-right: 20px;margin-bottom: 20px;}
+img.alignright {margin-left: 20px;margin-bottom: 20px;}
+
+#sub-module p {font-size: 24px;line-height: 28px;}
+
+.navbar-static-top .navbar-inner {border-top: 4px solid #98cfdb;border-bottom: 4px solid #98cfdb;}
+.navbar-inner {padding-right: 0;padding-left: 0;}
+.navbar .nav>li.blank {display:none;}
+.navbar .nav {float: none;left: auto;margin:auto;width:953px;z-index: 100;text-transform: uppercase;font-size: 18px;}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {background:none;box-shadow:none;}
+.navbar .brand img, .navbar .brand{margin-left:auto;margin-right:auto;width:auto;float:none;text-align:center;position:relative;z-index:500;}
+.navbar .brand {width: 140px;}
+.navbar .btn-navbar {padding: 17px 20px;margin-top: 30px;border:2px solid #98cfdb;background: #fff;}
+.navbar .btn-navbar .icon-bar {background-color:#98cfdb}
+#logo-collapse {margin:10px;}
+
+@media (max-width: 980px) {#logo-circle {display: none;}}
+
+.navbar .brand{height: 168px;background: #fff;border: 5px solid #98cfdb;border-radius: 100px;width: 158px;} */
+.navbar .brand img{width: 158px;margin-top:40px;}
+.navbar-fixed-top {margin-bottom: 0;}
+.navbar-static-top .navbar-inner {background: #fff;}
+img#logo {display: none;box-shadow: 0px 0px 80px #fff;}
+.navbar-fixed-top {position: fixed;}
+
+
+@media (min-width: 979px) {img#logo {background:#fff;padding:40px 10px;border:#98cfdb solid 4px;border-radius:100px;display: block;}.navbar-static-top .navbar-inner {margin-top:-110px;}.home header.banner.navbar {background-color: #8DABC1;}header.banner.navbar {background-color: #BFD4E7;}.navbar .nav>li>a {padding:10px 56px 10px;}.navbar .nav>li.blank {width:250px;display:block;}#logo-collapse{display:none;}}
+@media (max-width: 767px) {.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {margin-left: 0;margin-right: 0;}}
+	
+/* sidebar */
+aside.sidebar {margin-top: 50px;}
+section.widget {padding-bottom: 20px;}
+div.widget-inner iframe {width: 100%;} 
+@media (max-width:767px) {div.widget-inner iframe {height:300px !important;} }
+/* =============================================================================
+   homepage
+   ========================================================================== */
+.module{position:relative;height:800px;font-size:1.25rem;line-height:1.5em;color:#383533;}
+#intro .hero{background-position:top center;}
+#intro.module {height: 768px;}
+.module .hero{background-position:50% 50%;background-repeat:no-repeat;background-size:cover;height:100%;background-attachment:fixed;}
+.module .banner{position:absolute;top:50%;z-index:10;color:#383533;}
+.banner-full{width:100%;text-align:center;}
+.banner-full p{margin:0 auto;}
+.jumbotron .wrap{max-width:1130px;margin:0 auto;}
+.module .banner .wrap{padding:43px 105px 54px;position:relative;border: 15px solid #fff;}
+#intro .jumbotron .wrap{max-width:1020px;}
+#intro .jumbotron p{width:75%;}
+.jumbotron h1{font-size:75px;line-height:80px;font-weight:bold;color: #fff;text-transform: uppercase;}
+.jumbotron h1 span{font-size:25px;font-weight:bold;}
+.jumbotron p{font-size:1.625rem;line-height:1.5em;}
+section.crossroad-newsticker-widget-2{margin:0;}
+
+#sub-module {border-top:15px solid #fff;color: #fff;height: 400px;}
+#sub-module .span7{padding-top:3%;padding-bottom:3%;text-align:center;}
+
+#sub-module h3 {font-size: 30px;}
+
+.module-bg-img {background-size:cover !important;position:relative;height:100%;}
+.right {float: right;}
+a.order-now-btn p {border:15px solid #fff;padding:10px;background:#00cfbb;color:#fff;text-transform:uppercase;text-decoration:none;}
+a.order-now-btn p:hover {background:#00a695;}
+
+@media (max-width:1300px){.module .banner .wrap{padding: 43px 5px 54px;}.jumbotron h1 {font-size: 55px;line-height: 65px;}}
+@media (max-width:960px){.jumbotron h1{font-size:55px;line-height: 60px;}}
+@media (min-width:769px) {#sub-module.orange .span7 {padding-left:2.564102564102564%;}#sub-module.green .span7 {padding-right:2.564102564102564%;}}
+@media (max-width:768px){.jumbotron h1{font-size:45px;line-height:45px;}.jumbotron h1 span{font-size:45px;line-height:45px;}.module .banner .wrap{padding:0 !important;}#intro .jumbotron p{width:100%;}.module .banner{top:40%;}#sub-module {height: auto;} .module-bg-img {height: 300px;}body.home {padding-left:0px;padding-right:0px;}#sub-module .span7 {padding: 10%;}#intro.module{height: 500px;}}
+
+/* =============================================================================
+   single product
+   ========================================================================== */
+.single-product .wrap.container {margin-top: 80px;}
+div.thumbnails {margin-left: 0;}
+.woocommerce div.product form.cart div.quantity, .woocommerce #content div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity {height: 30px;}
+
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt{background: #00cfbb;border: 0;color: #fff;height: 30px;transition:all .2s ease-in;-o-transition:all .2s ease-in;-moz-transition:all .2s ease-in;-webkit-transition:all .2s ease-in;}
+
+.woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover{background:#009c8d;color: #fff;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs, .woocommerce #content div.product .woocommerce-tabs ul.tabs, .woocommerce-page div.product .woocommerce-tabs ul.tabs, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs{margin-bottom: 0px;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {background: #ffc222;color: #fff;}
+
+.woocommerce div.product .woocommerce-tabs .panel, .woocommerce #content div.product .woocommerce-tabs .panel, .woocommerce-page div.product .woocommerce-tabs .panel, .woocommerce-page #content div.product .woocommerce-tabs .panel{background: #fff;padding: 40px;color: #000;font-size: 18px;line-height: 28px;}
+
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active{background: #fff;border-bottom-color:#fff;color: #000;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {border:0;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:before,  {
+box-shadow: 2px 2px 0 #bfd4e7;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:after {
+box-shadow: -2px 2px 0 #bfd4e7;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before, .woocommerce div.product .woocommerce-tabs ul.tabs li:after, .woocommerce #content div.product .woocommerce-tabs ul.tabs li:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs li:after, .woocommerce-page div.product .woocommerce-tabs ul.tabs li:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs li:after, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:after {
+border: 0px solid #bfd4e7;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:before {
+box-shadow: 2px 2px 0 #bfd4e7;}
+
+
+/* =============================================================================
+   footer
+   ========================================================================== */
+.content-info {background: #fff;padding: 30px 0;margin-top: 60px;}
+.home .content-info {margin-top: 0;}
+ul#menu-secondary-nav {text-transform: uppercase;font-weight: 400;}
+.social a i {font-size: 24px;color:#98cfdb;padding: 0px 8px;line-height: 30px;}
+@media (max-width:767px){.social div {float: none;text-align: center;margin-bottom: 20px;} .content-info{text-align:center;line-height: 20px;} ul#menu-secondary-nav {float: none;width:416px;margin: 40px auto;} }

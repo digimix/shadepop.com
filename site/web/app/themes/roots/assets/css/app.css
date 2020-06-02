@@ -1,0 +1,173 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {background: #BFD4E7;font-size: 14px;}
+body.home {background: #fff;}
+
+a, a p {transition:all .2s ease-in;-o-transition:all .2s ease-in;-moz-transition:all .2s ease-in;-webkit-transition:all .2s ease-in;}
+a:hover {text-decoration: none;}
+h1, h2, h3 {font-weight: 200;}
+.main.span8 {margin-top: 50px;}
+img.alignleft {margin-right: 20px;margin-bottom: 20px;}
+img.alignright {margin-left: 20px;margin-bottom: 20px;}
+
+img#wpstats {display: none;}
+
+.relative {position: relative;}
+
+img#logo {position: absolute;}
+/* =============================================================================
+   Header
+   ========================================================================== */
+header {z-index: 10000;}
+.banner { }
+
+.home .navbar {margin-bottom: 0;z-index: 100;}
+.navbar {background-color:#fff;/* border-top: 4px solid #98cfdb; */border-bottom: 4px solid #98cfdb;text-transform: uppercase;}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {background:none;box-shadow:none;}
+.navbar .nav>li.blank {display:none;}
+header .nav>li>a {padding: 10px 30px;}
+
+.navbar-toggle {border:2px solid #98cfdb;background: #fff;top: 29px;}
+
+@media screen and (min-width: 768px){/* .navbar-brand {float: none;margin-right: auto;margin-left: auto;} */}
+
+@media (min-width: 768px) {.navbar{font-size: 18px;}img#logo {background:#fff;padding:40px 10px;border:#98cfdb solid 4px;border-radius:100px;-webkit-border-radius:100px;display: block;box-shadow: 0px 0px 80px #fff;}.navbar .nav>li.blank {width:290px;display:block;}.navbar .brand {width: 140px;}#pre-header {height: 70px;} .navbar-nav {float: right;margin-top: 34px;}}
+
+@media (max-width:767px) {.navbar{min-height:101px;}img#logo {width: 110px;display: none;}nav.nav-collapse {background: #eee;}}
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+.module{position:relative;height:800px;font-size:1.25rem;line-height:1.5em;color:#383533;}
+#intro.module {/* margin-top:-210px; */z-index:10;}
+#intro .hero{background-position:top center;}
+#intro.module {height: 768px;}
+.module .hero{background-position:50% 50%;background-repeat:no-repeat;background-size:cover;height:100%;background-attachment:fixed;}
+.module .banner{position:absolute;top:30%;z-index:10;color:#383533;}
+.banner-full{width:100%;text-align:center;}
+.banner-full p{margin:0 auto;}
+.jumbotron {background-color: inherit;}
+.jumbotron .wrap{max-width:1130px;margin:0 auto;}
+.module .banner .wrap{padding:43px 105px 54px;position:relative;border: 15px solid #fff;}
+#intro .jumbotron .wrap{max-width:1020px;}
+#intro .jumbotron p{width:75%;}
+.jumbotron h1{font-size:75px;line-height:80px;font-weight:bold;color: #fff;text-transform: uppercase;}
+.jumbotron h1 span{font-size:25px;font-weight:bold;}
+.jumbotron p{font-size:1.625rem;line-height:1.5em;}
+
+#sub-module {text-align: center;color: #fff;border-top:15px solid #fff;}
+.module-bg-img {background-size:cover !important;position:relative;height:100%;min-height: 380px;}
+.light-logo {margin-bottom:10px;max-width:200px;}
+h2.module-title {font-size:50px;font-weight:200;}
+
+a.order-now-btn p {border:15px solid #fff;padding:10px;background:#00cfbb;color:#fff;text-transform:uppercase;text-decoration:none;}
+a.order-now-btn p:hover {background:#00a695;}
+
+
+@media (max-width:1300px){.module .banner .wrap{padding: 43px 5px 54px;}.jumbotron h1 {font-size: 55px;line-height: 65px;}}
+@media (max-width:767px) {#intro.module{height: 500px;}.module{height:500px;}.jumbotron h1{font-size:45px;line-height:45px;}.module .banner .wrap{padding:0 !important;}#intro .jumbotron p{width:100%;}.module .banner{top:40%;}#intro.module .hero{background-size: auto;background-attachment: scroll;}.module .hero{background-attachment: scroll;}.module-bg-img{min-height: 350px;}.home #sub-module{border-top:0;}.home #sub-module .col-12{border-top:15px solid #fff;}} 
+
+@media (max-width:320px) {#intro.module{height:500px;}.module .banner{top:50%;}#intro.module .banner{top:45%;}.jumbotron h1{font-size:35px;line-height:40px;}h2.module-title {font-size: 30px;}}
+
+@media (min-width: 768px) {.row {margin-right: 0;margin-left: 0;}}
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+/* Gallery Shortcode */
+.row.gallery-row { padding: 15px 0; }
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+aside.sidebar {margin-top: 50px;}
+section.widget {padding-bottom: 20px;}
+div.widget-inner iframe {width: 100%;} 
+
+
+/* =============================================================================
+   single product
+   ========================================================================== */
+.single-product .wrap.container {margin-top: 80px;}
+div.thumbnails {margin-left: 0;}
+.woocommerce div.product form.cart div.quantity, .woocommerce #content div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity {height: 30px;}
+
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt{background: #00cfbb;border: 0;color: #fff;height: 30px;transition:all .2s ease-in;-o-transition:all .2s ease-in;-moz-transition:all .2s ease-in;-webkit-transition:all .2s ease-in;}
+
+.woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover{background:#009c8d;color: #fff;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs, .woocommerce #content div.product .woocommerce-tabs ul.tabs, .woocommerce-page div.product .woocommerce-tabs ul.tabs, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs{margin-bottom: 0px;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {background: #ffc222;color: #fff;}
+
+.woocommerce div.product .woocommerce-tabs .panel, .woocommerce #content div.product .woocommerce-tabs .panel, .woocommerce-page div.product .woocommerce-tabs .panel, .woocommerce-page #content div.product .woocommerce-tabs .panel{background: #fff;padding: 40px;color: #000;font-size: 18px;line-height: 28px;}
+
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active{background: #fff;border-bottom-color:#fff;color: #000;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before, .woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {border:0;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:before,  {
+box-shadow: 2px 2px 0 #bfd4e7;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:after {
+box-shadow: -2px 2px 0 #bfd4e7;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before, .woocommerce div.product .woocommerce-tabs ul.tabs li:after, .woocommerce #content div.product .woocommerce-tabs ul.tabs li:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs li:after, .woocommerce-page div.product .woocommerce-tabs ul.tabs li:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs li:after, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:after {
+border: 0px solid #bfd4e7;}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:before, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:before {
+box-shadow: 2px 2px 0 #bfd4e7;}
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info {background: #fff;margin-top: 60px;padding: 30px;}
+.home .content-info {margin-top: 0;}
+ul#menu-secondary-nav {text-transform: uppercase;font-weight: 400;}
+.social a i {font-size: 24px;color:#98cfdb;padding: 0px 8px;line-height: 30px;}
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 767px) {
+
+}
