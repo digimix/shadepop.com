@@ -210,6 +210,7 @@
     "wpackagist-plugin/simple-taxonomy-ordering": "^2.0.3",
     "wpackagist-plugin/slack": "^0.6.0",
     "wpackagist-plugin/tinymce-advanced": "^4.6.7",
+    "wpackagist-plugin/wc-customer-source":"1.1.2",
     "wpackagist-plugin/wordpress-seo": "^13.3",
     "wpackagist-plugin/uber-login-logo": "^1.5.1",
     "wpackagist-plugin/wp-stateless": "^2.2.0",
