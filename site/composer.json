@@ -196,8 +196,6 @@
     "wpackagist-plugin/codepress-admin-columns": "^3.2.3",
     "wpackagist-plugin/disable-comments": "^1.4.2",
     "wpackagist-plugin/disqus-comment-system":"^3.0.17",
-    "wpackagist-plugin/dsgnwrks-instagram-importer":"^2.1.1",
-    "wpackagist-plugin/dsgnwrks-instagram-importer-debug": "dev-trunk",
     "wpackagist-plugin/google-site-kit":"^1.5.1",
     "wpackagist-plugin/intuitive-custom-post-order": "3.0.7",
     "wpackagist-plugin/jetpack": "^8.0",
