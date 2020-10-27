@@ -8,9 +8,9 @@ vault_users:
     salt: "K{lvRv|$c:-83|36ngnO<lLE9@][1#ocwPs2j[rS=F%gp)U1f^ba#X6{?fRnvJY6"
 
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
-# Note: the site name (`shadepop.digimix.co`) must match up with the site name in the above file.
+# Note: the site name (`shadepop.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
-  shadepop.digimix.co:
+  shadepop.com:
     env:
       db_password: kPTfyfk6GBPjh5RnbXgu2HFQ4bWHvcNHf
       # Generate your keys here: https://roots.io/salts.html

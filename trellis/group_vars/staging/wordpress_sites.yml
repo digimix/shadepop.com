@@ -3,9 +3,9 @@
 # Define accompanying passwords/secrets in group_vars/staging/vault.yml
 
 wordpress_sites:
-  shadepop.digimix.co:
+  shadepop.com:
     site_hosts:
-      - canonical: shadepop.digimix.co
+      - canonical: shadepop.com
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
